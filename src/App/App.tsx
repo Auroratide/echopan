@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { P } from './styles'
+import { Handpan } from '../Handpan'
 
 export const App = () => <main>
-  <P>Hello world!</P>
+  <Handpan />
 </main>
