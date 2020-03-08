@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Shape = styled.div`
+export const Shape = styled.button`
   width: 0.2em;
   height: 0.15em;
   border: 0.025em solid #111111;
