@@ -9,7 +9,7 @@ export class KnownAudioNote implements Note {
   }
 
   play = () => {
-    this.audio.play()
+    (this.audio.cloneNode(true) as HTMLAudioElement).play()
   }
 
   name = () => this.source
