@@ -7,11 +7,11 @@ export class MockNote implements Note {
     this._name = name
   }
 
-  play = () => {
+  play = (): void => {
     ++this._timesPlayed
   }
 
-  name = () => this._name
+  name = (): string => this._name
 
   get timesPlayed(): number {
     return this._timesPlayed
