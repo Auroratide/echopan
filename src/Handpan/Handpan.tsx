@@ -4,7 +4,8 @@ import { Tongue } from './Tongue'
 import { Notes } from './Note'
 
 export const Handpan = () => <Styles.Pan>
-  <Tongue angle={0} distance={0.72} note={Notes.Fs4} />
+  <Tongue angle={0} distance={0.56} rotation={0.25} scale={0.6} note={Notes.A4} />
+  <Tongue angle={0} distance={0.82} rotation={0.75} scale={0.667} note={Notes.Fs4} />
   <Tongue angle={0.125} distance={0.72} note={Notes.E4} />
   <Tongue angle={0.25} distance={0.72} note={Notes.Cs4} />
   <Tongue angle={0.375} distance={0.72} note={Notes.A3} />
